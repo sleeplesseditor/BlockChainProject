@@ -1,0 +1,22 @@
+{
+  "name": "blockchainproject",
+  "version": "1.0.0",
+  "description": "This is a simple blockchain and cryptocurrency experiment, built in Node.js and using guidance from David Katz's course on Udemy, and his sf-chain project.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sleeplesseditor/BlockChainProject.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sleeplesseditor/BlockChainProject/issues"
+  },
+  "homepage": "https://github.com/sleeplesseditor/BlockChainProject#readme",
+  "dependencies": {
+    "nodemon": "^1.14.12"
+  }
+}
