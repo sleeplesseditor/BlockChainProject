@@ -4,19 +4,27 @@
   "description": "This is a simple blockchain and cryptocurrency experiment, built in Node.js and using guidance from David Katz's course on Udemy, and his sf-chain project.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest --watchAll",
+    "dev-test": "nodemon dev-test"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/sleeplesseditor/BlockChainProject.git"
   },
-  "author": "",
+  "keywords": [
+    "Node"
+  ],
+  "author": "Josh Bryson",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/sleeplesseditor/BlockChainProject/issues"
   },
   "homepage": "https://github.com/sleeplesseditor/BlockChainProject#readme",
   "dependencies": {
+    "crypto-js": "^3.1.9-1",
     "nodemon": "^1.14.12"
+  },
+  "devDependencies": {
+    "jest": "^22.3.0"
   }
 }
