@@ -40,7 +40,7 @@ app.get('/transactions', (req, res) => {
 //Adds new transactions to user's transaction pool instance
 app.post('/transact', (req, res) => {
     const { recipient, amount } = req.body;
-    const transaction = wallet.createTransaction(recipient, amount, tp);
+    const transaction = wallet.createTransaction(recipient, amount, bc, tp);
     p2pServer.broadcastTransaction(transaction);
     res.redirect('/transactions');
 });
